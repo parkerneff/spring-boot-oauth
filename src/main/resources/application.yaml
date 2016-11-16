@@ -1,6 +1,5 @@
-security:
-  oauth2:
-    client:
+facebook:
+   client:
       clientId: 233668646673605
       clientSecret: 33b17e044ee6a4fa383f46ec6e28ea1d
       accessTokenUri: https://graph.facebook.com/oauth/access_token
@@ -8,6 +7,5 @@ security:
       tokenName: oauth_token
       authenticationScheme: query
       clientAuthenticationScheme: form
-    resource:
+   resource:
       userInfoUri: https://graph.facebook.com/me
-...
